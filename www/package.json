@@ -1,0 +1,20 @@
+{
+  "name": "nodeCMF",
+  "version": "0.0.1",
+  "description": "Custom NodeJs framework",
+  "main": "index.js",
+  "dependencies": {
+    "formidable": "~1.0.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "index.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TODO git rep url"
+  },
+  "author": "rzhamaletdinov",
+  "license": "BSD-2-Clause"
+}
