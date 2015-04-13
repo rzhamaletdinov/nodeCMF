@@ -7,7 +7,8 @@ var handle 				= {}
 handle["/"] 			= requestHandlers.start;
 handle["/start"] 		= requestHandlers.start;
 handle["/upload"] 		= requestHandlers.upload;
+handle["/show"] 		= requestHandlers.show;
 handle["/favicon.ico"] 	= requestHandlers.ignore;
-handle["/404"] 	= requestHandlers.status404;
+handle["/404"] 			= requestHandlers.status404;
 
 server.start(router.route, handle);
