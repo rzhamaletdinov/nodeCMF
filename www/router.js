@@ -1,9 +1,9 @@
-function route(handle, pathname, response, postData) {
+function route(handle, pathname, response, request) {
 
 	if	(typeof handle[pathname] === 'function')
-		handle[pathname](response, postData);
+		handle[pathname](response, request);
 	else
-		handle["/404"](response, postData);
+		handle["/404"](response, request);
 	
 }
 
